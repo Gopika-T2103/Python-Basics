@@ -61,10 +61,3 @@ print(c)
 
 
 
-
-mul= [[sum(m1[i][k] * m2[k][j] for k in range(len(m2))) 
-      for j in range(len(m2[0]))] 
-     for i in range(len(m1))]
-print("multiplied matrix is = ",mul)
-# for i in mul:
-    # print(mul)
